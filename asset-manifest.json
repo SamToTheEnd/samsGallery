@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/samsGallery/static/css/main.af189f9d.css",
+    "main.css": "/samsGallery/static/css/main.0484e6f7.css",
     "main.js": "/samsGallery/static/js/main.f752531b.js",
     "static/js/453.69d7ebab.chunk.js": "/samsGallery/static/js/453.69d7ebab.chunk.js",
     "index.html": "/samsGallery/index.html",
-    "main.af189f9d.css.map": "/samsGallery/static/css/main.af189f9d.css.map",
+    "main.0484e6f7.css.map": "/samsGallery/static/css/main.0484e6f7.css.map",
     "main.f752531b.js.map": "/samsGallery/static/js/main.f752531b.js.map",
     "453.69d7ebab.chunk.js.map": "/samsGallery/static/js/453.69d7ebab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af189f9d.css",
+    "static/css/main.0484e6f7.css",
     "static/js/main.f752531b.js"
   ]
 }
