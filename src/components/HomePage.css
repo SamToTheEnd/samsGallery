@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+.home {
+    min-height: 100vh;
+    background: #111;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.home__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2.5rem;
+    border-bottom: 1px solid #1e1e1e;
+    background: #0c0c0c;
+    z-index: 20;
+    position: relative;
+}
+
+.home__title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.08em;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+
+.home__controls {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.home__dropdown-wrapper {
+    position: relative;
+}
+
+.home__menu-btn {
+    background: none;
+    border: 1px solid #2e2e2e;
+    color: #888;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: border-color 0.2s, color 0.2s;
+}
+.home__menu-btn:hover {
+    border-color: #555;
+    color: #f0f0f0;
+}
+
+.home__stage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 2.5rem 0;
+}
+
+.home__row {
+    display: flex;
+    gap: 0.4rem;
+    animation: marquee 120s linear infinite;
+}
+.home__row:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.home__photo-btn {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    height: 320px;
+    width: auto;
+    display: block;
+}
+
+.home__photo {
+    height: 100%;
+    width: auto;
+    display: block;
+    object-fit: cover;
+    transition: opacity 0.35s ease;
+}
+
+.home__photo-btn:hover .home__photo,
+.home__photo-btn--hovered .home__photo {
+    opacity: 0.7;
+}
