@@ -29,7 +29,8 @@ const HomePage: React.FC<Props> = ({
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-        return [...shuffled, ...shuffled];
+        const isMobile = window.innerWidth <= 600;
+        return isMobile ? shuffled : [...shuffled, ...shuffled];
     }, [reels]);
 
     return (

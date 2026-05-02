@@ -119,14 +119,29 @@
     }
 
     .home__stage {
-        padding: 1.5rem 0;
-    }
-
-    .home__photo-btn {
-        height: 200px;
+        padding: 1.2rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+        align-items: flex-start;
     }
 
     .home__row {
-        animation-duration: 60s;
+        animation: none;
+        transform: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .home__photo-btn {
+        height: auto;
+        width: 100%;
+    }
+
+    .home__photo {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3/2;
+        object-fit: cover;
     }
 }
