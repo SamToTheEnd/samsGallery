@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/samsGallery/static/css/main.cdf0fcca.css",
+    "main.js": "/samsGallery/static/js/main.7bb6e28b.js",
+    "static/js/453.69d7ebab.chunk.js": "/samsGallery/static/js/453.69d7ebab.chunk.js",
+    "index.html": "/samsGallery/index.html",
+    "main.cdf0fcca.css.map": "/samsGallery/static/css/main.cdf0fcca.css.map",
+    "main.7bb6e28b.js.map": "/samsGallery/static/js/main.7bb6e28b.js.map",
+    "453.69d7ebab.chunk.js.map": "/samsGallery/static/js/453.69d7ebab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdf0fcca.css",
+    "static/js/main.7bb6e28b.js"
+  ]
+}
