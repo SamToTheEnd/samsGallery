@@ -103,3 +103,30 @@
 .home__photo-btn--hovered .home__photo {
     opacity: 0.7;
 }
+
+@media (max-width: 600px) {
+    .home__header {
+        padding: 1rem 1.2rem;
+    }
+
+    .home__title {
+        font-size: 0.85rem;
+    }
+
+    .home__menu-btn {
+        font-size: 0.62rem;
+        padding: 0.35rem 0.75rem;
+    }
+
+    .home__stage {
+        padding: 1.5rem 0;
+    }
+
+    .home__photo-btn {
+        height: 200px;
+    }
+
+    .home__row {
+        animation-duration: 60s;
+    }
+}

@@ -91,3 +91,21 @@
     opacity: 0.75;
     transform: scale(1.03);
 }
+
+@media (max-width: 600px) {
+    .reel-view__header {
+        padding: 0.9rem 1.2rem;
+        gap: 1rem;
+    }
+
+    .reel-view__desc {
+        display: none;
+    }
+
+    .reel-view__grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.2rem;
+        gap: 0.5rem;
+        align-content: start;
+    }
+}
